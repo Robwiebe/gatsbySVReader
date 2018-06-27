@@ -35,7 +35,7 @@ body {
 }
 
 @media screen and (min-width: 500px) {
-    p, h1, h2, h3, h4, h5, h6 {
+    p, h1, h2, h3, h4, h5, h6, ul, li {
       font-size: 28px;
     }
 
@@ -256,3 +256,4 @@ img {
     margin: 15px 10%;
     padding: 1%;
 }
+

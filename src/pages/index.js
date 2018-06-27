@@ -2,14 +2,15 @@ import React from 'react';
 import Link from 'gatsby-link'
 import styles from './tocindex.module.css';
 import SVLogo from '../images/SVLogo.jpeg';
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const BlogPage = ({data}) => (
     <div>
         <img src={SVLogo} />
         <div className={styles.changeLanguage}>
-            <a href={'https://robwiebe.github.io/'}>
+            <OutboundLink href={'https://robwiebe.github.io/'}>
                 <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language</p>
-            </a>
+            </OutboundLink>
         </div>
         <details>
             <summary>{data.Matthew.edges.slice(0,1).map( post => (<span className={styles.bookTitle} key={post.node.id}>{post.node.bookName}</span>))}</summary>
