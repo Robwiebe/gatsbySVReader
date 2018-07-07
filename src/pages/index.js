@@ -6,7 +6,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const BlogPage = ({data}) => (
     <div>
-        <img src={SVLogo} />
+        <img src={SVLogo} className={styles.icons}/>
         <div className={styles.changeLanguage}>
             <OutboundLink href={'https://robwiebe.github.io/'}>
                 <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language</p>

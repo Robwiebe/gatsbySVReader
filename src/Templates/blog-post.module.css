@@ -34,24 +34,6 @@ body {
     font-size: 20px;
 }
 
-@media screen and (min-width: 500px) {
-    p, h1, h2, h3, h4, h5, h6, ul, li {
-      font-size: 28px;
-    }
-
-    .question {
-        font-size: 28px;
-    }
-
-    .questionsTitle {
-        font-size: 30px;
-    }
-
-    .title {
-        font-size: 32px;
-    }
-  }
-
 /* ------------------------------------
 ------------------------------------ */
 
@@ -252,8 +234,38 @@ a.link {
 }
 
 img {
-    width: 80%;
-    margin: 15px 10%;
+    width: 100%;
+    margin: 15px 0;
     padding: 1%;
 }
 
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    display:table;
+    border: 1px solid #000;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+tr {
+    border-bottom:1px solid #000;
+}
+
+tr:first-child {
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color:#f1f1f1;
+}
+
+th:first-child {
+    padding-left:5px;
+    width: fit-content;
+}
+
+th {
+    word-wrap:break-word;
+}

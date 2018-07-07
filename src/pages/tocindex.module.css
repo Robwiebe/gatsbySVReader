@@ -16,10 +16,10 @@ details {
       margin-left: 12.5%;
     }
 
-    img {
+    /* img {
         width: 30%;
         margin-left: 35%;
-    }
+    } */
   }
 
   .logodiv {
@@ -94,4 +94,11 @@ a {
 
 .title {
     font-size: 20px;
+}
+
+.icons {
+    width: 33.3%;
+    margin-left: 33.3%;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
