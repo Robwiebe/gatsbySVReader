@@ -7,6 +7,9 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 const BlogPage = ({data}) => (
     <div>
         <img src={SVLogo} className={styles.icons}/>
+        <div className={styles.reader}>
+            <p className={styles.svtitle}>SourceView</p><p className={styles.readertitle}>READER</p>
+        </div>
         <div className={styles.changeLanguage}>
             <OutboundLink href={'https://robwiebe.github.io/'}>
                 <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language</p>
@@ -336,7 +339,7 @@ const BlogPage = ({data}) => (
                     ))}
                 </ul>
         </details>
-        <h5 className={styles.copyright}>&#169; 2018 SourceView LLC.</h5>
+        <h5 className={styles.copyright}>World English Bible (WEB)<br />a Public Domain Modern English translation<br />of the Holy Bible.<br /><br />© 2018 SourceView LLC.</h5>
     </div>
     
 )

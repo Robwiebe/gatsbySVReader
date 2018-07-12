@@ -102,3 +102,22 @@ a {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.reader {
+    margin-left: 30%;
+    width: 40%;
+    font-size: 38px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.svtitle {
+    font-size: 24px;
+    margin-bottom: -10px;
+    line-height: -15px;
+}
+
+.readertitle {
+    font-weight: bold;
+}

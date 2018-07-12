@@ -124,6 +124,7 @@ h6 {
     font-size: 110%;
     font-weight: bold;
     margin: 10px 0;
+    color: #3e6bff;
 }
 
 strong {
@@ -138,7 +139,7 @@ u {
 
 strong, u {
     display: none;
-    white-space: nowrap;
+    white-space: pre-wrap;
     margin-right: 1.5px;
     margin-left: 1.5px;
 }
