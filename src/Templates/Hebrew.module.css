@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* @font-face {
+    font-family: 'UniSkriptEnglishGlobal';
+    src: url('../fonts/UniSkriptEnglishGlobal.ttf');
+} */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'UniSkriptEnglishGlobal'; */
+}
+HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1.35;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* ------------------------------------
+------------------------------------ */
+
+.title {
+    font-size: 140%;
+    color: black;
+    text-align: center;
+    margin: 30px auto 10px auto;
+}
+
+.ref {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: rgb(180, 180, 180);
+    font-size: 75%;
+}
+
+p, h1, h2, h3, h4, h5, strong, u, {
+    text-decoration: none;
+}
+
+h2, h3, h4 {
+    position: relative;
+    display: block;
+    width: fit-content;
+    max-width: auto;
+	border-radius: .43em;
+    padding: 8px 15px;
+    margin: 10px 0 10px auto;
+    box-shadow: 2px 4px 2px 0px rgba(0,0,0,0.28);
+}
+
+h2:after,
+h3:after,
+h4:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top: 0;
+    margin-top: -16px;
+    margin-left: calc(-1% - 30px);
+    
+}
+
+h1, h5 {
+    color: rgb(180, 180, 180);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 70%;
+}
+
+h4 {
+    background: rgb(142, 227, 255);
+    color: darkblue;
+}
+
+h4:after {
+	border-bottom-color: rgb(142, 227, 255);
+}
+
+h3 {
+    background: #b9f8b9;
+    color: #006400;
+}
+
+h3:after {
+	border-bottom-color: #b9f8b9;
+}
+
+h2 {
+    background: #ffadad;
+    color: #d60000;
+}
+
+h2:after {
+	border-bottom-color: #ffadad;
+}
+
+h5 {
+    margin-top: 20px;
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+}
+
+h6 {
+    font-size: 110%;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #3e6bff;
+}
+
+strong {
+    font-weight: bold;
+}
+
+u {
+    vertical-align: super;
+    font-size: 70%;
+    text-decoration: none;
+}
+
+strong, u {
+    display: none;
+    white-space: pre-wrap;
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+}
+
+.questionsTitle {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.question {
+    margin-left: 12.5%;
+    width: 75%;
+    list-style-type: square;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* ------ BUTTON BAR ------ */
+.navbar {
+    position:fixed;
+    bottom: -10px;
+    left: -5px;
+    width: 105%;
+    height: 70px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.buttons, .menu, .verse {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    padding: 0;
+    font-size: 40px;
+    color: white;
+    margin: 0 2% 0 2%;
+    line-height: 1;
+    
+}
+
+.buttons {
+    margin-top: 8px;
+}
+
+.sup {
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.menu {
+    font-size: 50px;
+    margin-top: -2px;
+}
+
+.verse {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 2px;
+    border: 1.5px solid #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    padding-top: 6px;
+    margin-left: 30%;
+    background-color: lightcoral;
+}
+
+.icons {
+    width: 33.3%;
+    margin-left: 33.3%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .icons {
+        width: 50%;
+        margin-left: 25%;
+    }
+  }
+
+a.link {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+    margin: 15px 0;
+    padding: 1%;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    display:table;
+    border: 1px solid #000;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+tr {
+    border-bottom:1px solid #000;
+}
+
+tr:first-child {
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color:#f1f1f1;
+}
+
+th:first-child {
+    padding-left:5px;
+    width: fit-content;
+}
+
+th {
+    word-wrap:break-word;
+}
