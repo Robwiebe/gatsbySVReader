@@ -10,7 +10,7 @@ module.exports = {
         name: "GatsbyJS",
         short_name: "GatsbyJS",
         start_url: "/",
-        background_color: "#fffff",
+        background_color: "#f1f1f1",
         theme_color: "#a2466c",
         display: "minimal-ui",
         icon: "src/images/SVReader.png", // This path is relative to the root of the site.

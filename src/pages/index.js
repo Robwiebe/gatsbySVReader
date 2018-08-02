@@ -6,7 +6,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const BlogPage = ({data}) => (
     <div>
-        <img src={SVLogo} className={styles.icons}/>
+        <img src={SVLogo} className={styles.icons} alt={'SourceView Logo'}/>
         <div className={styles.reader}>
             <p className={styles.svtitle}>SourceView</p><p className={styles.readertitle}>READER</p>
         </div>
@@ -343,6 +343,7 @@ const BlogPage = ({data}) => (
         <h5 className={styles.copyright}>World English Bible (WEB)<br />a Public Domain Modern English translation<br />of the Holy Bible.<br /><br />© 2018 SourceView LLC.</h5>
         {/* <h5 className={styles.copyright}>La Santa Biblia, Nueva Traducción Viviente,<br />© Tyndale House Foundation, 2010.<br />Todos los derechos reservados.<br /><br />© 2018 SourceView LLC.</h5> */}
         {/* <h5 className={styles.copyright}>Kurt Aland et al., Novum Testamentum Graece<br />(28th Edition.; Stuttgart: Deutsche Bibelgesellschaft, 2012)<br /><br />© 2018 SourceView LLC.</h5> */}
+    {/* <h5 className={styles.copyright}>Biblia Hebraica Stuttgartensia:<br />With Westminster Hebrew Morphology.<br />(electronic ed.; Stuttgart; Glenside PA:<br />German Bible Society;<br />Westminster Seminary, 1996)<br /><br />© 2018 SourceView LLC.</h5> */} */}
     </div>
     
 )
