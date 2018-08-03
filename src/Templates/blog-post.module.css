@@ -2,10 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* @font-face {
-    font-family: 'UniSkriptEnglishGlobal';
-    src: url('../fonts/UniSkriptEnglishGlobal.ttf');
-} */
+@font-face {
+    font-family: 'UniSkriptEnglishGlobal-Bold';
+    src: url('../fonts/UniSkriptEnglishGlobal-Bold.ttf');
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,8 +25,8 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
     white-space: pre-wrap;
-    font-family: 'Noto Sans', sans-serif;
-    /* font-family: 'UniSkriptEnglishGlobal'; */
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'UniSkriptEnglishGlobal-Bold';
 }
 HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure, 
@@ -46,6 +46,7 @@ body {
     color: black;
     text-align: center;
     margin: 30px auto 10px auto;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .ref {
@@ -91,6 +92,7 @@ h1, h5 {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 70%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h4 {
@@ -155,6 +157,7 @@ strong, u {
     text-align: center;
     font-weight: bold;
     margin-bottom: 15px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .question {
@@ -163,11 +166,13 @@ strong, u {
     list-style-type: square;
     margin-top: 5px; 
     margin-bottom: 5px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .copyright {
     text-align: center;
     margin-bottom: 100px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* ------ BUTTON BAR ------ */

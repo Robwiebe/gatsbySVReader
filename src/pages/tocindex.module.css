@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'UniSkriptEnglishGlobal-Bold';
+    src: url('../fonts/UniSkriptEnglishGlobal-Bold.ttf');
+}
+
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'UniSkriptEnglishGlobal-Bold';
+    /* font-family: 'Noto Sans', sans-serif; */
 }
 
 .bookTitle {
@@ -83,6 +89,7 @@ a {
 .switchlang {
     color: black;
     font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .switch {
@@ -115,14 +122,17 @@ a {
     margin-bottom: 25px;
     text-align: center;
     margin-top: -20px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .svtitle {
     font-size: 24px;
     margin-bottom: -10px;
     line-height: -15px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .readertitle {
     font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
 }
