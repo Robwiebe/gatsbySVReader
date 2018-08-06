@@ -47,6 +47,7 @@ body {
     color: black;
     text-align: center;
     margin: 30px auto 10px auto;
+    text-transform: capitalize;
 }
 
 .ref {
@@ -92,6 +93,10 @@ h1, h5 {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 70%;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 h4 {

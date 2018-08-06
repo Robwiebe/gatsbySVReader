@@ -2,7 +2,7 @@
   {
   "story": 326,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "1:1-2:40",
   "prevPath": "/",
   "path": "/326",
@@ -26,7 +26,7 @@
 {
   "story": 327,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "2:41-4:44",
   "prevPath": "/326",
   "path": "/327",
@@ -50,7 +50,7 @@
 {
   "story": 328,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "5:1-6:49",
   "prevPath": "/327",
   "path": "/328",
@@ -74,7 +74,7 @@
 {
   "story": 329,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "7:1-8:56",
   "prevPath": "/328",
   "path": "/329",
@@ -98,7 +98,7 @@
 {
   "story": 330,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "9:1-9:50",
   "prevPath": "/329",
   "path": "/330",
@@ -122,7 +122,7 @@
 {
   "story": 331,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "9:51-11:54",
   "prevPath": "/330",
   "path": "/331",
@@ -146,7 +146,7 @@
 {
   "story": 332,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "12:1-13:9",
   "prevPath": "/331",
   "path": "/332",
@@ -170,7 +170,7 @@
 {
   "story": 333,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "13:10-15:32",
   "prevPath": "/332",
   "path": "/333",
@@ -194,7 +194,7 @@
 {
   "story": 334,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "16:1-17:10",
   "prevPath": "/333",
   "path": "/334",
@@ -218,7 +218,7 @@
 {
   "story": 335,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "17:11-19:27",
   "prevPath": "/334",
   "path": "/335",
@@ -242,7 +242,7 @@
 {
   "story": 336,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "19:28-21:38",
   "prevPath": "/335",
   "path": "/336",
@@ -266,7 +266,7 @@
 {
   "story": 337,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "22:1-22:71",
   "prevPath": "/336",
   "path": "/337",
@@ -284,7 +284,7 @@
 {
   "story": 338,
   "bookId": 42,
-  "bookName": "Luke",
+  "bookName": "Lucas",
   "ref": "23:1-24:53",
   "prevPath": "/337",
   "path": "/338",
