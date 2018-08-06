@@ -2,10 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@font-face {
+/* @font-face {
     font-family: 'UniSkriptEnglishGlobal-Bold';
     src: url('../fonts/UniSkriptEnglishGlobal-Bold.ttf');
-}
+} */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,8 +25,8 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
     white-space: pre-wrap;
-    /* font-family: 'Noto Sans', sans-serif; */
-    font-family: 'UniSkriptEnglishGlobal-Bold';
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'UniSkriptEnglishGlobal-Bold'; */
 }
 HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure, 
