@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styles from './blog-post.module.css'
-// import styles from './Hebrew.module.css'
+// import styles from './blog-post.module.css'
+import styles from './Hebrew.module.css'
 import readTogether from '../images/SVB-Read-together.png';
 import discussTogether from '../images/SVB-Discuss-together.png';
 import divider from '../images/divider.png';
@@ -55,8 +55,9 @@ export default function Template ({data}) {
             {/* <h5 className={styles.copyright}>World English Bible (WEB)<br />a Public Domain Modern English translation<br />of the Holy Bible.<br /><br />© 2018 SourceView LLC.</h5> */}
             {/* <h5 className={styles.copyright}>La Santa Biblia, Nueva Traducción Viviente,<br />© Tyndale House Foundation, 2010.<br />Todos los derechos reservados.<br /><br />© 2018 SourceView LLC.</h5> */}
             {/* <h5 className={styles.copyright}>Kurt Aland et al., Novum Testamentum Graece<br />(28th Edition.; Stuttgart: Deutsche Bibelgesellschaft, 2012)<br /><br />© 2018 SourceView LLC.</h5> */}
-            {/* <h5 className={styles.copyright}>Biblia Hebraica Stuttgartensia:<br />With Westminster Hebrew Morphology.<br />(electronic ed.; Stuttgart; Glenside PA:<br />German Bible Society;<br />Westminster Seminary, 1996)<br /><br />© 2018 SourceView LLC.</h5> */}
-            <h5 className={styles.copyright}>Nova Tradução na Linguagem de Hoje<br />Copyright 2000 Sociedade Bíblica do Brasil.<br />Todos os direitos reservados<br /><br />© 2018 SourceView LLC.</h5>
+            <h5 className={styles.copyright}>Biblia Hebraica Stuttgartensia:<br />With Westminster Hebrew Morphology.<br />(electronic ed.; Stuttgart; Glenside PA:<br />German Bible Society;<br />Westminster Seminary, 1996)<br /><br />© 2018 SourceView LLC.</h5>
+            {/* <h5 className={styles.copyright}>Nova Tradução na Linguagem de Hoje<br />Copyright 2000 Sociedade Bíblica do Brasil.<br />Todos os direitos reservados<br /><br />© 2018 SourceView LLC.</h5> */}
+            {/* <h5 className={styles.copyright}>The Holy Bible:<br />Korean Revised Version KRV 개역한글<br /><br />© 2018 SourceView LLC.</h5> */}
 
             {/* ----------------------------------------
                             NAV BAR

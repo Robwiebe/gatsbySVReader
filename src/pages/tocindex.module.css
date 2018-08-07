@@ -27,10 +27,11 @@ details {
       margin-left: 12.5%;
     }
 
-    /* img {
+    img {
         width: 30%;
         margin-left: 35%;
-    } */
+        margin-right: 35%;
+    }
   }
 
   .logodiv {
@@ -91,7 +92,6 @@ a {
 .switchlang {
     color: black;
     font-weight: bold;
-    font-family: 'Noto Sans', sans-serif;
 }
 
 .switch {
