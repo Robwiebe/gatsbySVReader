@@ -4,8 +4,8 @@
 } */
 
 body {
-    /* font-family: 'UniSkriptEnglishGlobal-Bold'; */
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'UniSkriptEnglishGlobal-Bold';
+    /* font-family: 'Noto Sans', sans-serif; */
 }
 
 .bookTitle {
@@ -75,6 +75,7 @@ a {
     width: fit-content;
     text-align: center;
     margin: 50px auto;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .changeLanguage {

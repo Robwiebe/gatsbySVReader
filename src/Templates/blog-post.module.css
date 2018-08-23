@@ -3,10 +3,10 @@
    License: none (public domain)
 */
 /* IMPORTANT!!! DON'T CAPITALIZE SOURCES WHEN RUNNING UNISKRIPT THROUGH!!! */
-@font-face {
+/* @font-face {
     font-family: 'UniSkriptEnglishGlobal-Bold';
     src: url('../fonts/UniSkriptEnglishGlobal-Bold.ttf');
-}
+} */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,8 +26,8 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
     white-space: pre-wrap;
-    /* font-family: 'Noto Sans', sans-serif; */
-    font-family: 'UniSkriptEnglishGlobal-Bold';
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'UniSkriptEnglishGlobal-Bold'; */
 }
 HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure, 
@@ -93,12 +93,7 @@ h1, h5 {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 70%;
-    font-family: 'Noto Sans', sans-serif;
 }
-
-/* h1 {
-    text-transform: uppercase;
-} */
 
 h4 {
     background: rgb(142, 227, 255);
@@ -182,7 +177,7 @@ strong, u {
 
 /* ------ BUTTON BAR ------ */
 .navbar {
-    position:fixed;
+    position: fixed;
     bottom: -10px;
     left: -5px;
     width: 105%;

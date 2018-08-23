@@ -2,10 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* @font-face {
+@font-face {
     font-family: 'UniSkriptEnglishGlobal';
     src: url('../fonts/UniSkriptEnglishGlobal.ttf');
-} */
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,7 +47,6 @@ body {
     color: black;
     text-align: center;
     margin: 30px auto 10px auto;
-    text-transform: capitalize;
 }
 
 .ref {
@@ -93,10 +92,6 @@ h1, h5 {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 70%;
-}
-
-h1 {
-    text-transform: uppercase;
 }
 
 h4 {
