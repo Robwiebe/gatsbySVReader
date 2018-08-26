@@ -3,10 +3,10 @@
    License: none (public domain)
 */
 /* IMPORTANT!!! DON'T CAPITALIZE SOURCES WHEN RUNNING UNISKRIPT THROUGH!!! */
-/* @font-face {
+@font-face {
     font-family: 'UniSkriptEnglishGlobal-Bold';
     src: url('../fonts/UniSkriptEnglishGlobal-Bold.ttf');
-} */
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

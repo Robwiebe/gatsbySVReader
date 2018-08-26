@@ -1,11 +1,11 @@
-/* @font-face {
+@font-face {
     font-family: 'UniSkriptEnglishGlobal-Bold';
     src: url('../fonts/UniSkriptEnglishGlobal-Bold.ttf');
-} */
+}
 
 body {
-    font-family: 'UniSkriptEnglishGlobal-Bold';
-    /* font-family: 'Noto Sans', sans-serif; */
+    /* font-family: 'UniSkriptEnglishGlobal-Bold'; */
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .bookTitle {
