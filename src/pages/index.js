@@ -13,7 +13,8 @@ const BlogPage = ({data}) => (
         <div className={styles.changeLanguage}>
             <OutboundLink href={'https://sourceviewbible.github.io/'}>
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language</p> */}
-                <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>언어 변경</p>
+                {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>언어 변경</p> */}
+                <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>изменение языка</p>
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Mudar idioma</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}></span>cAnj laNgwij</p> */}
             </OutboundLink>
@@ -65,7 +66,7 @@ const BlogPage = ({data}) => (
                         </li>
                     ))}
                 </ul>
-        </details> */}
+        </details>
         <details>
             <summary>{data.Acts.edges.slice(0,1).map( post => (<span className={styles.bookTitle} key={post.node.id}>{post.node.bookName}</span>))}</summary>
                 <ul>
@@ -78,7 +79,7 @@ const BlogPage = ({data}) => (
                     ))}
                 </ul>
         </details>
-        {/* <details>
+        <details>
             <summary>{data.Romans.edges.slice(0,1).map( post => (<span className={styles.bookTitle} key={post.node.id}>{post.node.bookName}</span>))}</summary>
                 <ul>
                     {data.Romans.edges.map(post => (
@@ -349,7 +350,8 @@ const BlogPage = ({data}) => (
         {/* <h5 className={styles.copyrightIndex}>Kurt Aland et al., Novum Testamentum Graece<br />(28th Edition.; Stuttgart: Deutsche Bibelgesellschaft, 2012)<br /><br />© 2018 SourceView LLC.</h5> */}
         {/* <h5 className={styles.copyrightIndex}>Biblia Hebraica Stuttgartensia:<br />With Westminster Hebrew Morphology.<br />(electronic ed.; Stuttgart; Glenside PA:<br />German Bible Society;<br />Westminster Seminary, 1996)<br /><br />© 2018 SourceView LLC.</h5> */}
         {/* <h5 className={styles.copyrightIndex}>Temporary demo of the NTLH in the SourceView format<br />Copyright permission in process<br />Nova Tradução na Linguagem de Hoje<br />Copyright 2000 Sociedade Bíblica do Brasil.<br />Todos os direitos reservados<br /><br />© 2018 SourceView LLC.</h5> */}
-        <h5 className={styles.copyrightIndex}>Temporary demo of the KRV in the SourceView format<br />Copyright permission in process<br />The Holy Bible:<br />Korean Revised Version KRV 개역한글<br /><br />© 2018 SourceView LLC.</h5>
+        {/* <h5 className={styles.copyrightIndex}>Temporary demo of the KRV in the SourceView format<br />Copyright permission in process<br />The Holy Bible:<br />Korean Revised Version KRV 개역한글<br /><br />© 2018 SourceView LLC.</h5> */}
+        <h5 className={styles.copyrightIndex}>Russian Synodal Version (RUSV)<br />by Public Domain<br /><br />© 2018 SourceView LLC.</h5>
     </div>
     
 )
