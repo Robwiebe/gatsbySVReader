@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'SourceView Reader',
   },
-  pathPrefix: `/RUSSIAN`,
+  pathPrefix: `/WEB`,
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
