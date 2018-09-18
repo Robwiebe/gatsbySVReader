@@ -1,8 +1,9 @@
 import React from 'react';
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 import styles from './tocindex.module.css';
 import SVLogo from '../images/SVLogo.jpeg';
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { graphql } from 'gatsby'
 
 const BlogPage = ({data}) => (
     <div>
@@ -358,7 +359,7 @@ const BlogPage = ({data}) => (
 
 export const pageQuery = graphql`
     query BlogIndexQuery {
-        Matthew: allPostsJson(filter: {bookId: {eq: 40}}) {
+        Matthew: allEnglish(filter: {bookId: {eq: 40}}) {
             edges {
               node {
                 id
@@ -370,7 +371,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Mark: allPostsJson(filter: {bookId: {eq: 41}}) {
+        Mark: allEnglish(filter: {bookId: {eq: 41}}) {
         edges {
             node {
                 id
@@ -382,7 +383,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Luke: allPostsJson(filter: {bookId: {eq: 42}}) {
+        Luke: allEnglish(filter: {bookId: {eq: 42}}) {
             edges {
               node {
                 id
@@ -394,31 +395,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        John: allPostsJson(filter: {bookId: {eq: 43}}) {
-        edges {
-            node {
-            id
-            bookId
-            bookName
-            ref
-            path
-            title
-            }
-        }
-        },
-        Acts: allPostsJson(filter: {bookId: {eq: 44}}) {
-            edges {
-              node {
-                id
-                bookId
-                bookName
-                ref
-                path
-                title
-              }
-            }
-        },
-        Romans: allPostsJson(filter: {bookId: {eq: 45}}) {
+        John: allEnglish(filter: {bookId: {eq: 43}}) {
         edges {
             node {
             id
@@ -430,7 +407,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Corinthians1: allPostsJson(filter: {bookId: {eq: 46}}) {
+        Acts: allEnglish(filter: {bookId: {eq: 44}}) {
             edges {
               node {
                 id
@@ -442,7 +419,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Corinthians2: allPostsJson(filter: {bookId: {eq: 47}}) {
+        Romans: allEnglish(filter: {bookId: {eq: 45}}) {
         edges {
             node {
             id
@@ -454,7 +431,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Galatians: allPostsJson(filter: {bookId: {eq: 48}}) {
+        Corinthians1: allEnglish(filter: {bookId: {eq: 46}}) {
             edges {
               node {
                 id
@@ -466,7 +443,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Ephesians: allPostsJson(filter: {bookId: {eq: 49}}) {
+        Corinthians2: allEnglish(filter: {bookId: {eq: 47}}) {
         edges {
             node {
             id
@@ -478,7 +455,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Philippians: allPostsJson(filter: {bookId: {eq: 50}}) {
+        Galatians: allEnglish(filter: {bookId: {eq: 48}}) {
             edges {
               node {
                 id
@@ -490,7 +467,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Colossians: allPostsJson(filter: {bookId: {eq: 51}}) {
+        Ephesians: allEnglish(filter: {bookId: {eq: 49}}) {
         edges {
             node {
             id
@@ -502,7 +479,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Thessalonians1: allPostsJson(filter: {bookId: {eq: 52}}) {
+        Philippians: allEnglish(filter: {bookId: {eq: 50}}) {
             edges {
               node {
                 id
@@ -514,7 +491,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Thessalonians2: allPostsJson(filter: {bookId: {eq: 53}}) {
+        Colossians: allEnglish(filter: {bookId: {eq: 51}}) {
         edges {
             node {
             id
@@ -526,7 +503,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Timothy1: allPostsJson(filter: {bookId: {eq: 54}}) {
+        Thessalonians1: allEnglish(filter: {bookId: {eq: 52}}) {
             edges {
               node {
                 id
@@ -538,7 +515,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Timothy2: allPostsJson(filter: {bookId: {eq: 55}}) {
+        Thessalonians2: allEnglish(filter: {bookId: {eq: 53}}) {
         edges {
             node {
             id
@@ -550,7 +527,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Titus: allPostsJson(filter: {bookId: {eq: 56}}) {
+        Timothy1: allEnglish(filter: {bookId: {eq: 54}}) {
             edges {
               node {
                 id
@@ -562,7 +539,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Philemon: allPostsJson(filter: {bookId: {eq: 57}}) {
+        Timothy2: allEnglish(filter: {bookId: {eq: 55}}) {
         edges {
             node {
             id
@@ -574,7 +551,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Hebrews: allPostsJson(filter: {bookId: {eq: 58}}) {
+        Titus: allEnglish(filter: {bookId: {eq: 56}}) {
             edges {
               node {
                 id
@@ -586,7 +563,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        James: allPostsJson(filter: {bookId: {eq: 59}}) {
+        Philemon: allEnglish(filter: {bookId: {eq: 57}}) {
         edges {
             node {
             id
@@ -598,7 +575,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        Peter1: allPostsJson(filter: {bookId: {eq: 60}}) {
+        Hebrews: allEnglish(filter: {bookId: {eq: 58}}) {
             edges {
               node {
                 id
@@ -610,7 +587,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Peter2: allPostsJson(filter: {bookId: {eq: 61}}) {
+        James: allEnglish(filter: {bookId: {eq: 59}}) {
         edges {
             node {
             id
@@ -622,7 +599,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        John1: allPostsJson(filter: {bookId: {eq: 62}}) {
+        Peter1: allEnglish(filter: {bookId: {eq: 60}}) {
             edges {
               node {
                 id
@@ -634,7 +611,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        John2: allPostsJson(filter: {bookId: {eq: 63}}) {
+        Peter2: allEnglish(filter: {bookId: {eq: 61}}) {
         edges {
             node {
             id
@@ -646,7 +623,7 @@ export const pageQuery = graphql`
             }
         }
         },
-        John3: allPostsJson(filter: {bookId: {eq: 64}}) {
+        John1: allEnglish(filter: {bookId: {eq: 62}}) {
             edges {
               node {
                 id
@@ -658,7 +635,7 @@ export const pageQuery = graphql`
               }
             }
         },
-        Jude: allPostsJson(filter: {bookId: {eq: 65}}) {
+        John2: allEnglish(filter: {bookId: {eq: 63}}) {
         edges {
             node {
             id
@@ -670,7 +647,31 @@ export const pageQuery = graphql`
             }
         }
         },
-        Revelation: allPostsJson(filter: {bookId: {eq: 66}}) {
+        John3: allEnglish(filter: {bookId: {eq: 64}}) {
+            edges {
+              node {
+                id
+                bookId
+                bookName
+                ref
+                path
+                title
+              }
+            }
+        },
+        Jude: allEnglish(filter: {bookId: {eq: 65}}) {
+        edges {
+            node {
+            id
+            bookId
+            bookName
+            ref
+            path
+            title
+            }
+        }
+        },
+        Revelation: allEnglish(filter: {bookId: {eq: 66}}) {
             edges {
               node {
                 id

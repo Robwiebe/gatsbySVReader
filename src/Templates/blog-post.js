@@ -1,18 +1,19 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 import styles from './blog-post.module.css'
 // import styles from './Hebrew.module.css'
 import readTogether from '../images/SVB-Read-together.png';
 import discussTogether from '../images/SVB-Discuss-together.png';
 import divider from '../images/divider.png';
+import { graphql } from 'gatsby';
 
 export default function Template ({data}) {
-    const post = data.postsJson
+    const post = data.english
 
     const toggleVisibility1 = (tagName) => {
         const elements = document.getElementsByTagName(tagName);
         for (var i = 0; i < elements.length; i++){
-          elements[i].style.display = elements[i].style.display == 'inline' ? 'none' : 'inline';
+          elements[i].style.display = elements[i].style.display === 'inline' ? 'none' : 'inline';
         }
       }
 
@@ -38,10 +39,10 @@ export default function Template ({data}) {
         <div>
             <h1 className={styles.title}>{post.title}</h1>
             <p className={styles.ref} style={{ display: post.display }}>{post.bookName} {post.ref}</p>
-            <img className={styles.icons} src={readTogether} style={{ display: post.display }} />
+            <img className={styles.icons} src={readTogether} style={{ display: post.display }} alt="img"/>
             <div dangerouslySetInnerHTML={{__html: post.html}} />
-            <img className={styles.icons} src={divider} style={{ display: post.display }}  />
-            <img className={styles.icons} src={discussTogether} style={{ display: post.display }}  />
+            <img className={styles.icons} src={divider} style={{ display: post.display }}  alt="img" />
+            <img className={styles.icons} src={discussTogether} style={{ display: post.display }}  alt="img" />
             <div className={styles.questions} style={{ display: post.display }}>
                 <p className={styles.questionsTitle} >{post.questionsTitle}</p>
                 <ul>
@@ -81,7 +82,7 @@ export default function Template ({data}) {
 
 export const postQuery = graphql`
     query BlogPostByPath($path: String!) {
-        postsJson ( path: { eq: $path } ) {
+        english ( path: { eq: $path } ) {
             path
             title
             display

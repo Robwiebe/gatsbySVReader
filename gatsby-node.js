@@ -1,14 +1,14 @@
 const path = require ('path');
 // const data = require('src/data/posts.json');
 
-exports.createPages = ({boundActionCreators, graphql}) => {
-    const {createPage} = boundActionCreators
+exports.createPages = ({actions, graphql}) => {
+    const {createPage} = actions
 
     const postTemplate = path.resolve('src/Templates/blog-post.js');
 
     return graphql(`
     {
-        allPostsJson {
+        allEnglish {
             edges {
               node {
                 display
@@ -34,7 +34,7 @@ exports.createPages = ({boundActionCreators, graphql}) => {
             return Promise.reject(res.errors)
         }
 
-        res.data.allPostsJson.edges.forEach(({node}) => {
+        res.data.allEnglish.edges.forEach(({node}) => {
             createPage({
                 path: node.path,
                 component: postTemplate,
