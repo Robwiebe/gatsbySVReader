@@ -37,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1.35;
     font-size: 20px;
+    padding: 2%;
 }
 
 /* ------------------------------------
@@ -219,7 +220,7 @@ strong, u {
     font-size: 20px;
     margin-top: 2px;
     border: 1.5px solid #fff;
-    height: 35px;
+    height: 27px;
     width: 35px;
     border-radius: 20px;
     padding-top: 6px;

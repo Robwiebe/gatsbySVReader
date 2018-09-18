@@ -14,6 +14,7 @@ const BlogPage = ({data}) => (
         <div className={styles.changeLanguage}>
             <OutboundLink href={'https://sourceviewbible.github.io/'}>
                 <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language</p>
+                {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Cambiar Idioma</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>언어 변경</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>изменение языка</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Mudar idioma</p> */}
