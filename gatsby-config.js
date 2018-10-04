@@ -73,7 +73,7 @@ module.exports = {
           // if you're data is really simple, this should be fine too
           {
             type: "English",
-            path: "English",
+            path: "English/Segments",
           }
         ]
       }
