@@ -13,12 +13,16 @@ const BlogPage = ({data}) => (
         </div>
         <div className={styles.changeLanguage}>
             <OutboundLink href={'https://sourceviewbible.github.io/'}>
-                <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language</p>
-                <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>简体中文</p>
+                {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language</p> */}
+                {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language (FINNISH)</p> */}
+                <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Change Language (AFRIKAANS)</p>
+                {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>简体中文</p> */}
+                {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>เปลี่ยนภาษา</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Cambiar Idioma</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>언어 변경</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>изменение языка</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Mudar idioma</p> */}
+                {/* <p className={styles.switchlang}><span className={styles.switch}>&#x2261;</span>Changer de langue</p> */}
                 {/* <p className={styles.switchlang}><span className={styles.switch}></span>cAnj laNgwij</p> */}
             </OutboundLink>
         </div>
@@ -347,14 +351,17 @@ const BlogPage = ({data}) => (
                 </ul>
         </details>
         {/* <h5 className={styles.copyrightIndex}>พระคัมภีร์ ฉบับแปลใหม่ (NTV) ฉบับ 2016<br />สงวนลิขสิทธิ์ © 1998, 2012<br />โดย หน่วยงานพระคัมภีร์ฉบับแปลใหม่<br /><br />© 2018 SourceView LLC.</h5> */}
-        <h5 className={styles.copyrightIndex}>World English Bible (WEB)<br />a Public Domain Modern English translation<br />of the Holy Bible.<br /><br />© 2018 SourceView LLC.</h5>
-        {/* <h5 className={styles.copyrightIndex}>A provisional demo of the Uniskript WEB in the SourceView format<br />World English Bible (WEB)<br />a Public Domain Modern English translation<br />of the Holy Bible.<br /><br />© 2018 SourceView LLC.</h5> */}
+        {/* <h5 className={styles.copyrightIndex}>World English Bible (WEB)<br />a Public Domain Modern English translation<br />of the Holy Bible.<br /><br />© 2018 SourceView LLC.</h5> */}
+        {/* <h5 className={styles.copyrightIndex}>Chinese Union Version (Simplified) (CUVS)<br />by Public Domain<br /><br />© 2018 SourceView LLC.</h5>        <h5 className={styles.copyrightIndex}>A provisional demo of the Uniskript WEB in the SourceView format<br />World English Bible (WEB)<br />a Public Domain Modern English translation<br />of the Holy Bible.<br /><br />© 2018 SourceView LLC.</h5> */}
         {/* <h5 className={styles.copyrightIndex}>La Santa Biblia, Nueva Traducción Viviente,<br />© Tyndale House Foundation, 2010.<br />Todos los derechos reservados.<br /><br />© 2018 SourceView LLC.</h5> */}
         {/* <h5 className={styles.copyrightIndex}>Kurt Aland et al., Novum Testamentum Graece<br />(28th Edition.; Stuttgart: Deutsche Bibelgesellschaft, 2012)<br /><br />© 2018 SourceView LLC.</h5> */}
         {/* <h5 className={styles.copyrightIndex}>Biblia Hebraica Stuttgartensia:<br />With Westminster Hebrew Morphology.<br />(electronic ed.; Stuttgart; Glenside PA:<br />German Bible Society;<br />Westminster Seminary, 1996)<br /><br />© 2018 SourceView LLC.</h5> */}
         {/* <h5 className={styles.copyrightIndex}>Temporary demo of the NTLH in the SourceView format<br />Copyright permission in process<br />Nova Tradução na Linguagem de Hoje<br />Copyright 2000 Sociedade Bíblica do Brasil.<br />Todos os direitos reservados<br /><br />© 2018 SourceView LLC.</h5> */}
+        {/* <h5 className={styles.copyrightIndex}>La Bible Du Semeur (The Bible of the Sower)<br />Copyright © 1992, 1999 by Biblica, Inc.®</h5> */}
         {/* <h5 className={styles.copyrightIndex}>Temporary demo of the KRV in the SourceView format<br />Copyright permission in process<br />The Holy Bible:<br />Korean Revised Version KRV 개역한글<br /><br />© 2018 SourceView LLC.</h5> */}
         {/* <h5 className={styles.copyrightIndex}>Russian Synodal Version (RUSV)<br />by Public Domain<br /><br />© 2018 SourceView LLC.</h5> */}
+        {/* <h5 className={styles.copyrightIndex}>FINNISH<br /><br />© 2018 SourceView LLC.</h5> */}
+        <h5 className={styles.copyrightIndex}>AFRIKAANS<br /><br />© 2018 SourceView LLC.</h5>
     </div>
     
 )
