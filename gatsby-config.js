@@ -1,3 +1,17 @@
+// ---------------------------------------- //
+// ---------------------------------------- //
+// Error: ENOENT: no such file or directory
+
+// To delete your .cache folder just, cd into your project folder and run this in shell:
+
+// rm -r ./.cache/*
+
+// To rebuild cache just run
+// gatsby develop or gatsby build
+
+// ---------------------------------------- //
+// ---------------------------------------- //
+
 module.exports = {
   siteMetadata: {
     title: 'SourceView Reader',
